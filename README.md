@@ -1,6 +1,10 @@
-# create-svelte
+# A boilerplate template for svelte svelte to use in TF-Grid 3.0 
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Prebuilt app
+- includes TF-Connect Auth
+- JS to communicate with protocol.me (Digital Twin API)
+- JS for Cosmos Wallet
+- Boostrap Template
 
 ## Creating a project
 
