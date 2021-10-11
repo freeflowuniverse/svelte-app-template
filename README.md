@@ -1,4 +1,4 @@
-# A boilerplate template for svelte to use to connect to proctocol.me
+# A boilerplate template for svelte to use to connect to protocol.me
 This git is in draft mode
 
 Prebuilt app
