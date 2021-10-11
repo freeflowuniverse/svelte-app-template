@@ -1,4 +1,5 @@
-# A boilerplate template for svelte svelte to use in TF-Grid 3.0 
+# A boilerplate template for svelte to use to connect to proctocol.me
+This git is in draft mode
 
 Prebuilt app
 - includes TF-Connect Auth
