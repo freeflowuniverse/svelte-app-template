@@ -4,6 +4,15 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
+	import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
+	import { assertIsBroadcastTxSuccess, SigningStargateClient, StargateClient } from "@cosmjs/stargate";
+
+	const mnemonic = "surround miss nominee dream gap cross assault thank captain prosper drop duty group candy wealth weather scale put";
+	const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic);
+	const [firstAccount] = await wallet.getAccounts();
+	console.log(firstAccount.address);
+
+
 </script>
 
 <svelte:head>
